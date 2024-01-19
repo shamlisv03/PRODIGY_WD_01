@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(t1.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 100% auto;
+}
+header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background: linear-gradient(to right, #906e57, #c6bfb9);
+padding: 10px 0;
+z-index: 1000;
+transition: background 0.3s ease;
+}
+nav {
+display: flex;
+justify-content: flex-end;
+}
+nav a {
+color: rgb(255, 255, 255);
+text-decoration: none;
+padding: 20px 35px;
+margin: 40 20px;
+border-radius: 5px;
+transition: background 0.3s ease, color 0.3s ease;
+}
+.bt{
+background-color: rgb(170, 140, 110);
+border-radius: 5px;
+padding: 8px;
+margin: 8px;
+border-style: hidden;
+transition: background 0.3s ease, color 0.3s ease;
+}
+.section{
+padding: 100px 20px;
+text-align: left;
+font-style:oblique ;
+}
+
+.btn{
+background-color: rgb(109, 69, 0);
+border-radius: 5px;
+padding: 8px;
+margin: 20px;
+border-style: hidden;
+transition: background 0.3s ease, color 0.3s ease;
+}
+
+.grid{
+display: flex;
+justify-content: center;
+padding: 500px;
+}
+.card{
+width: 300px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding: 40px;
+margin: 15px;
+margin-top: -100px;
+}
+.card h2 {
+padding: -10px;
+margin-top: -500px;
+display: flex;
+}
+.card p{
+padding: 0px;
+margin: 40px;
+margin-top :10px ;
+}
+
+.card image{
+height: 30px;
+size: 10px;
+
+}
+
+
